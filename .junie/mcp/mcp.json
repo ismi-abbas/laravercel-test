@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "/Users/ismiabbas/.config/herd-lite/bin/php",
+            "args": [
+                "/Users/ismiabbas/Developer/laravel/orders-management/artisan",
+                "boost:mcp"
+            ]
+        },
+        "herd": {
+            "command": "/Users/ismiabbas/.config/herd-lite/bin/php",
+            "args": [
+                "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
+            ],
+            "env": {
+                "SITE_PATH": "/Users/ismiabbas/Developer/laravel/orders-management"
+            }
+        }
+    }
+}
