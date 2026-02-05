@@ -1,3 +1,10 @@
-export default function Home() {
-    return <div>Lorem</div>
+function Home({ name }) {
+    return (
+        <div className="text-center">
+            <button>test</button>
+            <div>Name: {name}</div>
+        </div>
+    );
 }
+
+export default Home;
