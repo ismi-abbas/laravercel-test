@@ -4,7 +4,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "deploy": "vercel ."
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
@@ -18,6 +19,7 @@
         "@inertiajs/react": "^2.3.11",
         "@vitejs/plugin-react": "^5.1.2",
         "react": "^19.2.3",
-        "react-dom": "^19.2.3"
+        "react-dom": "^19.2.3",
+        "vercel": "^50.11.0"
     }
 }
